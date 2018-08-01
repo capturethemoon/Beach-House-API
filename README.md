@@ -1,24 +1,7 @@
-# README
+# Beach House API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<i>This API is still in progress</i>
 
-Things you may want to cover:
 
-* Ruby version
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/EUWVoxcK5Q4/0.jpg)](http://www.youtube.com/watch?v=Dyclbb_6Ycs)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
