@@ -18,13 +18,13 @@ Bundler.require(*Rails.groups)
 
 module BeachHouseApi
   class Application < Rails::Application
-    
-    config.middleware.insert_before 0, "Rack::Cors" do
-      allow do
-        origins '*'
-        resource '*', :headers => :any, :methods => [:get, :post, :options]
-      end
-    end
+
+    config.middleware.use Rack::Cors do
+  allow do
+    origins '*'
+    resource '/*', :headers => :any, :methods => :patch
+  end
+end
     config.api_only = true
   end
 end
